@@ -1,0 +1,188 @@
+Модуль 2. Управляющие конструкции. Домашее задание
+
+1. Дан массив $pets = ["cat", "dog", "bat", "mouse", "pig", "goat", "sheep", "cow", "chicken"];
+Выведите в документ все элементы массива используя FOR.
+
+2. Дан массив $animals = ["ant", "bison", "camel", "duck", "elephant", "cat", "dog"];
+Выведите в документ все элементы массива используя FOREACH.
+
+3. Дан массив $numbers = [6,3,4,6,7,9,1];
+Получите сумму элементов массива.
+
+4. Дан массив $numbers = [6,3,4,6,7,9,1];
+Получите произведение элементов массива.
+
+5. Дан массив $pets = ["cat", "dog", "bat", "mouse", "pig", "goat", "sheep", "cow", "chicken"];
+Сформируйте из массива одну строку с заголовками, в которых будут использованы значения
+ элементов массива и выведите в документ.
+
+6. Дан массив
+$users = [
+    [
+        'firstName' => "Иван",
+        'lastName' => "Иванов",
+    ],
+    [
+        'firstName' => "Анна",
+        'lastName' => "Иванова",
+    ],
+    [
+        'firstName' => "Семен",
+        'lastName' => "Петров",
+    ],
+];
+С помощью перебора элементов сформируйте HTML разметку используя данные о пользователях
+из массива.
+
+7. Усложним немного массив
+$users = [
+    [
+        'firstName' => "Иван",
+        'lastName' => "Иванов",
+        'hobby' => ["Гулять"],
+    ],
+    [
+        'firstName' => "Анна",
+        'lastName' => "Иванова",
+        'hobby' => ["Спать", "Плавать"],
+    ],
+    [
+        'firstName' => "Семен",
+        'lastName' => "Петров",
+        'hobby' => ["Гулять", "Есть"],
+    ],
+];
+Задание то же. С помощью перебора элементов сформируйте HTML
+разметку используя данные о пользователях из массива.
+
+8. Дан массив
+$cart = [
+  [
+    'name' => "Наушники",
+    'price' => 50,
+    'qty' => 3
+  ],
+  [
+    'name' => "Клавиатура",
+    'price' => 65,
+    'qty' => 4
+  ],
+  [
+    'name' => "Монитор",
+    'price' => 300,
+    'qty' => 2
+  ],
+];
+Получите общую сумму за товары по корзине.
+
+9. Дан массив
+$cart = [
+  [
+    'name' => "Наушники",
+    'price' => 50,
+    'qty' => 3
+  ],
+  [
+    'name' => "Клавиатура",
+    'price' => 65,
+    'qty' => 4
+  ],
+  [
+    'name' => "Монитор",
+    'price' => 300,
+    'qty' => 2
+  ],
+];
+С помощью перебора элементов сформируйте HTML
+разметку используя данные из массива.
+
+10. Дан массив
+$students = [
+    [
+        'firstName' => "Михаил",
+        'lastName' => "Сидоров",
+        'age' => 17,
+        'childCount' => null,
+        'phones' => ['81245698554', '4995846521', '4822456845', '863'],
+        'address' => [
+            'city' => 'Москва',
+            'street' => 'Гагарина',
+            'houseNumber' => 2
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    [
+        'firstName' => "Инна",
+        'lastName' => "Потапова",
+        'age' => 19,
+        'childCount' => 2,
+        'phones' => ['235','81245698554', '863', '156', '345'],
+        'address' => [
+            'city' => 'Ставрополь',
+            'street' => 'Гагарина',
+            'houseNumber' => 12
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    [
+        'firstName' => "Алексей",
+        'lastName' => "Петров",
+        'age' => 21,
+        'childCount' => null,
+        'phones' => ['742', '798'],
+        'address' => [
+            'city' => 'Самара',
+            'street' => 'Герцена',
+            'houseNumber' => 67
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1496302662116-35cc4f36df92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    [
+        'firstName' => "Иван",
+        'lastName' => "Сидоров",
+        'age' => 17,
+        'childCount' => null,
+        'phones' => ['81245698554', '4995846521', '4822456845'],
+        'address' => [
+            'city' => 'Пермь',
+            'street' => 'Гагарина',
+            'houseNumber' => 44
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    [
+        'firstName' => "Анна",
+        'lastName' => "Сидорова",
+        'age' => 18,
+        'childCount' => 1,
+        'phones' => ['235', '863', '156', '345'],
+        'address' => [
+            'city' => 'Ставрополь',
+            'street' => 'Пушкина',
+            'houseNumber' => 22
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    [
+        'firstName' => "Алексей",
+        'lastName' => "Сергеев",
+        'age' => 27,
+        'childCount' => null,
+        'phones' => ['742', '798'],
+        'address' => [
+            'city' => 'Иваново',
+            'street' => 'Герцена',
+            'houseNumber' => 27
+        ],
+        'avatar' => 'https://images.unsplash.com/photo-1496302662116-35cc4f36df92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ]
+];
+Вычислите суммарный возраст всех студентов.
+
+11. Используя массив из 10 задания вычислите общее количество детей у всех студентов.
+12. Используя массив из 10 задания сформируйте массив с аватарами студентов.
+13. Используя массив из 10 задания сформируйте массив с городами, в которых проживают студенты.
+14. Используя массив из 10 задания сформируйте HTML код с данными обо всех студентах.
+Структуру HTML родумайте самостоятельно так, чтобы корректно были указаны все данные из массива
+и их можно было затем стилизовать.
+15. Используя CSS стилизуйте получившуюся разметку по своему усмотрению.
